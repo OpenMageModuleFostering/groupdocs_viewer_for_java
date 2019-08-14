@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Gdvj_GroupdocsViewerJava>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Gdvj_GroupdocsViewerJava>
+    </modules>
+</config>

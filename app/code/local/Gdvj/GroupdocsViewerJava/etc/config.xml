@@ -1,0 +1,119 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Gdvj_GroupdocsViewerJava>
+            <version>0.1.0</version>
+        </Gdvj_GroupdocsViewerJava>
+    </modules>
+    
+    <global>
+        
+    <blocks>
+         <adminhtml>
+            <rewrite>
+                <cms_page_edit>Gdvj_GroupdocsViewerJava_Block_Adminhtml_Cms_Page_Edit</cms_page_edit>
+            </rewrite>
+        </adminhtml>
+    </blocks>
+
+        
+        <models>
+            <groupdocsviewerjava>
+                <class>Gdvj_GroupdocsViewerJava_Model</class>
+                <resourceModel>groupdocsviewerjava_mysql4</resourceModel>
+            </groupdocsviewerjava>
+            <groupdocsviewerjava_mysql4>
+                <class>Gdvj_GroupdocsViewerJava_Model_Mysql4</class>
+                <entities>
+                    <groupdocsviewerjava>
+                        <table>groupdocsvj</table>
+                    </groupdocsviewerjava>
+                </entities>
+            </groupdocsviewerjava_mysql4>
+        </models>
+<resources>
+        <groupdocsviewerjava_write>
+            <connection>
+                <use>core_write</use>
+            </connection>
+        </groupdocsviewerjava_write>
+
+       <groupdocsviewerjava_read>
+          <connection>
+             <use>core_read</use>
+          </connection>
+       </groupdocsviewerjava_read>
+       
+       <groupdocsviewerjava_delete>
+          <connection>
+             <use>core_delete</use>
+          </connection>
+       </groupdocsviewerjava_delete>
+</resources>
+
+        
+        
+        
+        
+        <blocks>
+            <groupdocsviewerjava>
+                <class>Gdvj_GroupdocsViewerJava_Block</class>
+            </groupdocsviewerjava>
+        </blocks>
+        <helpers>
+            <groupdocsviewerjava>
+                <class>Gdvj_GroupdocsViewerJava_Helper</class>
+            </groupdocsviewerjava>  
+        </helpers>
+    </global>
+    
+    <admin>
+        <routers>
+            <groupdocsviewerjava>
+                <use>admin</use>
+                <args>
+                    <module>Gdvj_GroupdocsViewerJava</module>
+                    <frontName>groupdocsviewerjava</frontName>
+                </args>
+            </groupdocsviewerjava>
+        </routers>
+    </admin>
+    
+    <adminhtml>
+        
+        <menu>
+            <catalog>
+                <children>
+                    <groupdocsviewerjava_adminform translate="title" module="groupdocsviewerjava">
+                        <title>Groupdocs Viewer Java</title>
+                        <action>groupdocsviewerjava/adminhtml_viewerjava</action>
+                    </groupdocsviewerjava_adminform>
+                </children>
+            </catalog>
+        </menu>
+        
+        <acl>
+            <resources>
+                <admin>
+                    <children>
+                        <catalog>
+                            <children>
+                                <groupdocsviewerjava_adminform>
+                                    <title>Groupdocs Viewer Java</title>
+                                </groupdocsviewerjava_adminform>
+                            </children>
+                        </catalog>
+                    </children>
+                </admin>
+            </resources>
+        </acl>
+        
+        <layout>
+            <updates>
+                <groupdocsviewerjava>
+                    <file>groupdocsviewerjava.xml</file>
+                </groupdocsviewerjava>
+            </updates>
+        </layout>
+    </adminhtml>
+</config>

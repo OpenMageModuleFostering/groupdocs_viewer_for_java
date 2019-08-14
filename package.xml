@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<package>
+    <name>GroupDocs_Viewer_for_Java</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">GNU General Public License (GPL)</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Powered by &lt;a href="http://groupdocs.com/java/document-viewer-library" target="_blank"&gt;GroupDocs' Java document viewer library&lt;/a&gt;, GroupDocs Java Viewer for Magento adds advanced document viewer features to Magento sites.</summary>
+    <description>Powered by &lt;a href="http://groupdocs.com/java/document-viewer-library" target="_blank"&gt;GroupDocs' Java document viewer library&lt;/a&gt;, GroupDocs Java Viewer for Magento adds advanced document viewer features to Magento sites.&#xD;
+&#xD;
+As well as being a Java PDF viewer, the extension supports almost 50 file formats, including Microsoft Word, Excel, PowerPoint, Visio, and Outlook, OpenDocument formats, CAD graphics and raster images.&#xD;
+&#xD;
+&lt;strong&gt;Before installing:&lt;/strong&gt; to use this extension you need to have a license for the GroupDocs.Viewer for Java library. To get a free 30-day evaluation license, please &lt;a href="http://groupdocs.com/corporate/contact" rel="nofollow" target="_blank"&gt;contact the sales team&lt;/a&gt;.&#xD;
+&#xD;
+&lt;h3&gt;Key Benefits&lt;/h3&gt;&#xD;
+&#xD;
+&lt;ol&gt;&#xD;
+&lt;li&gt;&lt;strong&gt;Host documents on your domain&lt;/strong&gt;. GroupDocs.Viewer for Java is different from the &lt;a href="https://drupal.org/project/groupdocs_viewer" target="_blank"&gt;cloud-based viewer&lt;/a&gt; in that it makes it possible to store and access documents from your local storage infrastructure.&lt;/li&gt;&#xD;
+&lt;li&gt;&lt;strong&gt;Native browser support&lt;/strong&gt;. There is no need for Flash, Adobe Reader or any other 3rd party software installation client-side.&lt;/li&gt;&#xD;
+&lt;li&gt;&lt;strong&gt;High-quality display&lt;/strong&gt;. Thanks to the &lt;a href="http://groupdocs.com/html5-document-viewer"&gt;HTML5 document viewer&lt;/a&gt; technology, spreadsheets, text documents, PowerPoint presentations, and other documents look as sharp as in the software that created them.&lt;/li&gt;&#xD;
+&lt;li&gt;&lt;strong&gt;Easy copy and paste&lt;/strong&gt;. Native text rendering allows users to search for, select and copy text to the clipboard from documents embedded in the site with GroupDocs Java Viewer for Magento.&lt;/li&gt;&#xD;
+&lt;li&gt;&lt;strong&gt;Intuitive user interface&lt;/strong&gt;. There's no learning curve: users can scroll or turn pages with a button, preview pages with thumbnails, download and print documents from a web-browser using familiar controls.&lt;/li&gt;&#xD;
+&lt;/ol&gt;&#xD;
+&#xD;
+&lt;h3&gt;Supported File Formats&lt;/h3&gt;&#xD;
+&#xD;
+&lt;ul&gt;&#xD;
+&lt;li&gt;Portable Document Format: .pdf&lt;/li&gt;&#xD;
+&lt;li&gt;Microsoft Word: .doc .docx .docm .dot .dotx .dotm&lt;/li&gt;&#xD;
+&lt;li&gt;Microsoft Excel: .xls .xlsx .xlsm .xlt .xltx .xltm .xlsb .xml&lt;/li&gt;&#xD;
+&lt;li&gt;Microsoft PowerPoint: .ppt .pptx .pptm&lt;/li&gt;&#xD;
+&lt;li&gt;Microsoft Visio: .vsd .vss .vst .vsw .vdx .vsx .vtx .vsdx .vsdm .vssx .vssm .vstx .vstm .vsl&lt;/li&gt;&#xD;
+&lt;li&gt;Microsoft Project: .mpp .mpt .mpx&lt;/li&gt;&#xD;
+&lt;li&gt;Microsoft Outlook: .msg&lt;/li&gt;&#xD;
+&lt;li&gt;OpenDocument Formats: .odt .ott .ods .odp&lt;/li&gt;&#xD;
+&lt;li&gt;Rich Text Format: .rtf&lt;/li&gt;&#xD;
+&lt;li&gt;Plain Text Format: .txt&lt;/li&gt;&#xD;
+&lt;li&gt;Comma-Separated Values: .csv&lt;/li&gt;&#xD;
+&lt;li&gt;HyperText Markup Language: .htm .html .mht .mhtml&lt;/li&gt;&#xD;
+&lt;li&gt;XML Paper Specification: .xps&lt;/li&gt;&#xD;
+&lt;li&gt;AutoCAD Drawing File Format: .dwg .dxf&lt;/li&gt;&#xD;
+&lt;li&gt;Image files: .bmp .gif .jpg .png .tiff&lt;/li&gt;&#xD;
+&lt;/ul&gt;&#xD;
+&#xD;
+&lt;h3&gt;Installing the Extension&lt;/h3&gt;&#xD;
+&#xD;
+&lt;strong&gt;Before you proceed:&lt;/strong&gt; please be aware that this extension can be used only by registered users of the GroupDocs.Viewer for Java Library. Before you can use the extension, you need to buy a license. We offer a free evaluation version so that you can try it before committing. More information about the library and pricing can be found on &lt;a href="http://groupdocs.com/java/document-viewer-library" target="_blank"&gt;GroupDocs' website&lt;/a&gt;.&#xD;
+&#xD;
+For detailed installation instructions, read the &lt;a href="put link here" rel="nofollow" target="_blank"&gt;Java Viewer extension documentation&lt;/a&gt;.&#xD;
+&#xD;
+&lt;h4&gt;Questions?&lt;/h4&gt;&#xD;
+Please feel free to &lt;a href="http://groupdocs.com/corporate/contact" rel="nofollow" target="_blank"&gt;contact us&lt;/a&gt;!</description>
+    <notes>initial release</notes>
+    <authors><author><name>GroupDocs</name><user>Marketplace</user><email>support@groupdocs.com</email></author></authors>
+    <date>2014-04-03</date>
+    <time>11:05:55</time>
+    <contents><target name="magelocal"><dir name="Gdvj"><dir name="GroupdocsViewerJava"><dir name="Block"><dir name="Adminhtml"><dir name="Cms"><dir name="Page"><file name="Edit.php" hash="46ada8f533100168a8028e4734fbf446"/></dir></dir><file name="GroupdocsViewerJava.php" hash="290d9f2013ec57f11ffcdc74f7622d0f"/></dir></dir><dir name="Helper"><file name="Data.php" hash="c86abc4805dfda269034a5f9de8df944"/></dir><dir name="Model"><dir name="Mysql4"><dir name="GroupdocsViewerJava"><file name="Collection.php" hash="20838412acb5930767d65042af28e96a"/></dir><file name="groupdocsviewerjava.php" hash="008bf5e43fc0dca261984cef1b9e8437"/></dir><file name="groupdocsviewerjava.php" hash="078884a06dd40a3da865e6cef2228b26"/></dir><dir name="controllers"><dir name="Adminhtml"><file name="ViewerJavaController.php" hash="a07ac617c0c001b1dbc40cb985a23a1f"/></dir></dir><dir name="etc"><file name="config.xml" hash="f20156cafd3b14e0b6a9009913115cda"/></dir><dir name="js"><file name="insert.js" hash="61d1b7be069a5d7207576f062d7c1396"/><file name=".htaccess" hash="7cffe2704dc0e86389a2d02391dcca5d"/></dir><dir name="sql"><dir name="GroupdocsViewerJava_setup"><file name="mysql4-install-0.1.0" hash="10b9ef588f1225c6bdabd5971d0fb539"/></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Gdvj_GroupdocsViewerJava.xml" hash="16b43eacf3206464555dc59f507193aa"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.3.0</min><max>5.4.0</max></php></required></dependencies>
+</package>

@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/GroupDocs_Viewer_for_Java",
+    "type": "magento-module",
+    "license": "GNU-General-Public-License-(GPL)",
+    "homepage": "",
+    "description": "Powered by <a href="http://groupdocs.com/java/document-viewer-library" target="_blank">GroupDocs' Java document viewer library</a>, GroupDocs Java Viewer for Magento adds advanced document viewer features to Magento sites.",
+    "authors": [
+    {
+        "name": "GroupDocs",
+        "email": "support@groupdocs.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
