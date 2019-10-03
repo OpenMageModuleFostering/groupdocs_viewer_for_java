@@ -1,5 +1,7 @@
 {
     "keywords": [
         "openmage-module"
-    ]
+    ],
+    "name": "openmage-module-fostering\/groupdocs_viewer_for_java",
+    "license": "OSL-3.0"
 }
